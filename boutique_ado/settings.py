@@ -27,7 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [ '8000-kamenco-ado-caifv3yvmu7.ws.codeinstitute-ide.net']
 
-# Authentication backends
+# Authentication backends/workspace/ado/home/templates/home
 
 AUTHENTICATION_BACKENDS = [
     
@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
