@@ -38,11 +38,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = [ '8000-kamenco-ado-caifv3yvmu7.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [  '8000-kamenco-ado-imed8ubomxr.ws.codeinstitute-ide.net']
 
-
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY')
 
 # Application definition
 
