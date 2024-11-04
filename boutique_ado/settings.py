@@ -196,3 +196,5 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+DEFAULT_FROM_EMAIL = 'boutique_ado@example.com'
