@@ -39,7 +39,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 'DEVELOPMENT' in os.environ
+
+
+# SECURITY WARNING: don't run with debug turned on in production!
+
 
 ALLOWED_HOSTS = [
     '8000-kamenco-ado-imed8ubomxr.ws.codeinstitute-ide.net',
