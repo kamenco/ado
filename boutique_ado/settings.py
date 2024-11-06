@@ -17,8 +17,8 @@ from dotenv import load_dotenv
 # Load the .env file
 load_dotenv()
 
-# Get the SECRET_KEY from the environment
-SECRET_KEY = os.getenv('SECRET_KEY')
+# Get the SECRET_KEY from the ement
+SECRET_KEY = os.getenv.get('SECRET_KEY', '')
 
 # If SECRET_KEY is still empty, raise an error
 if not SECRET_KEY:
