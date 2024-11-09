@@ -202,6 +202,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+AWS_DEFAULT_ACL = None
 
 
 if 'USE_AWS' in os.environ:
