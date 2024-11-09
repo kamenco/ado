@@ -206,7 +206,7 @@ AWS_DEFAULT_ACL = None
 
 
 if 'USE_AWS' in os.environ:
-    # Bucket Config for the AWS
+    # Bucket Config for the AWS S3
     AWS_STORAGE_BUCKET_NAME = 'apparelkamen'
     AWS_S3_REGION_NAME = 'eu-north-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
