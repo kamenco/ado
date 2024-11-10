@@ -213,7 +213,7 @@ if 'USE_AWS' in os.environ:
         'CacheControl': 'max-age=94608000',
     }
     
-    # Bucket Config for the AWS S3
+    # Bucket Config for the AWS 
     AWS_STORAGE_BUCKET_NAME = 'apparelkamen'
     AWS_S3_REGION_NAME = 'eu-north-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
